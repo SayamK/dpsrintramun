@@ -18,7 +18,7 @@ body {
 }
 
 .first {
-	background: url("bg2.jpg") no-repeat;
+	background: url("bg.jpg") no-repeat;
 	width: 100%;
 	padding-bottom: 150px;
 	background-attachment: fixed;
