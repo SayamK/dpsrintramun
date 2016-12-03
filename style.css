@@ -254,8 +254,9 @@ header a:hover #contact-line {
 				}
 
 				#member2 {
-				background: url("default.png") no-repeat;
+				background: url("adit.jpg") no-repeat;
 				background-size: cover;
+				background-position: -30px;
 				}
 
 				#member3 {
