@@ -353,8 +353,6 @@ header a:hover #contact-line {
 		display: inline-block;
 		margin-right: 20px;
 		margin-top: 20px;
-		background: url('bg.jpg') no-repeat;
-    background-size: cover;
 	}
 
 	.com p {
@@ -362,6 +360,17 @@ header a:hover #contact-line {
 		font-size: 25px;
 		font-weight: 300;
 		margin-top: 100px;
+	}
+
+	#comm-1 {
+		background: url('unsc.jpg') no-repeat;
+    background-size: cover;
+		background-position: -50px;
+	}
+
+	#comm-2 {
+		background: url('loksabha.jpg') no-repeat;
+    background-size: cover;
 	}
 
 	.fifth {
