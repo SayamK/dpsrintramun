@@ -245,5 +245,9 @@ $(document).ready(function(){
   		$('body').animate({scrollTop:(i)},1000);
 	});
 
+	$('.pro').click(function() {
+		 window.open('http://sayamkanwar.me/','_self');
+	});
+
 
 });
