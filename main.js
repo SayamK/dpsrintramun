@@ -240,6 +240,11 @@ $(document).ready(function(){
   		$('body').animate({scrollTop:(i)},1000);
 	});
 
+	$('#l5').click(function(){
+  		var i=$('.resources').offset().top;
+  		$('body').animate({scrollTop:(i)},1000);
+	});
+
 	$('#l6').click(function(){
   		var i=$('.fifth').offset().top;
   		$('body').animate({scrollTop:(i)},1000);
