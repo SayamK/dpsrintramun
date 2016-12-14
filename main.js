@@ -227,28 +227,39 @@ $(document).ready(function(){
 
 	$('#l2').click(function(){
   		var i=$('.second').offset().top;
-  		$('body').animate({scrollTop:(i)},1000);
+  		$('body').animate({scrollTop:(i)},500);
 	});
 
 	$('#l3').click(function(){
-  		var i=$('.third').offset().top;
-  		$('body').animate({scrollTop:(i)},1000);
+  		var i=$('.message').offset().top;
+  		$('body').animate({scrollTop:(i)},500);
 	});
 
 	$('#l4').click(function(){
-  		var i=$('.fourth').offset().top;
-  		$('body').animate({scrollTop:(i)},1000);
+  		var i=$('.updates').offset().top;
+  		$('body').animate({scrollTop:(i)},500);
 	});
 
 	$('#l5').click(function(){
-  		var i=$('.resources').offset().top;
-  		$('body').animate({scrollTop:(i)},1000);
+  		var i=$('.third').offset().top;
+  		$('body').animate({scrollTop:(i)},500);
 	});
 
 	$('#l6').click(function(){
-  		var i=$('.fifth').offset().top;
-  		$('body').animate({scrollTop:(i)},1000);
+  		var i=$('.fourth').offset().top;
+  		$('body').animate({scrollTop:(i)},500);
 	});
+
+	$('#l7').click(function(){
+  		var i=$('.resources').offset().top;
+  		$('body').animate({scrollTop:(i)},500);
+	});
+
+	$('#l8').click(function(){
+			var i=$('.fifth').offset().top;
+			$('body').animate({scrollTop:(i)},500);
+	});
+
 
 	$('.pro').click(function() {
 		 window.open('http://sayamkanwar.me/','_self');
