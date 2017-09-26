@@ -262,7 +262,7 @@ $(document).ready(function(){
 
 
 	$('.pro').click(function() {
-		 window.open('http://sayamkanwar.me/','_self');
+		 window.open('http://sayamkanwar.com/','_self');
 	});
 
 
