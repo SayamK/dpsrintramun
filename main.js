@@ -241,7 +241,7 @@ $(document).ready(function(){
 	});
 
 	$('#l5').click(function(){
-  		var i=$('.third').offset().top;
+  		var i=$('#secretariat').offset().top;
   		$('body').animate({scrollTop:(i)},500);
 	});
 
@@ -260,6 +260,10 @@ $(document).ready(function(){
 			$('body').animate({scrollTop:(i)},500);
 	});
 
+
+	$('#l9').click(function(){
+ 		window.open('register.html','_self');
+	});
 
 	$('.pro').click(function() {
 		 window.open('http://sayamkanwar.com/','_self');

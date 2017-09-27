@@ -272,7 +272,7 @@ header a:hover #contact-line {
 				}
 
 				#member3 {
-				background: url("rohil.jpg") no-repeat;
+				background: url("manik.jpg") no-repeat;
 				background-size: cover;
 				}
 
@@ -282,38 +282,23 @@ header a:hover #contact-line {
 				}
 
 				#member5 {
-				background: url("svasti.jpg") no-repeat;
+				background: url("default.png") no-repeat;
 				background-size: cover;
 				}
 
 				#member6 {
-				background: url("manik.jpg") no-repeat;
+				background: url("default.png") no-repeat;
 				background-size: cover;
 				}
 
 				#member7 {
-				background: url("anandita.jpg") no-repeat;
+				background: url("default.png") no-repeat;
 				background-size: cover;
-				background-position: -100px;
-				}
-
-				#member8 {
-				background: url("shivam.jpg") no-repeat;
-				background-size: cover;
-				}
-
-				#member9 {
-				background: url("sarthak.jpg") no-repeat;
-				background-size: cover;
+				/*background-position: -100px;*/
 				}
 
 				#member10 {
 				background: url("sk.jpg") no-repeat;
-				background-size: cover;
-				}
-
-				#member11 {
-				background: url("default.png") no-repeat;
 				background-size: cover;
 				}
 
@@ -416,7 +401,7 @@ header a:hover #contact-line {
 	}
 
 	footer {
-		background: #333;
+		background: #111;
 	}
 
 	footer p {
