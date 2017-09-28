@@ -220,53 +220,54 @@ $(document).ready(function(){
 		timer();
 	},1000)
 
-	$('#l1').click(function(){
-  		var i=$('.first').offset().top;
-  		$('body').animate({scrollTop:(i)},1000);
+	$("#l1").click(function(){
+		// console.log("chal");
+  		var i=$(".first").offset().top;
+  		$("body").animate({scrollTop:(i)},1000);
 	});
 
-	$('#l2').click(function(){
-  		var i=$('.second').offset().top;
-  		$('body').animate({scrollTop:(i)},500);
+	$("#l2").click(function(){
+  		var i=$(".second").offset().top;
+  		$("body").animate({scrollTop:(i)},500);
 	});
 
-	$('#l3').click(function(){
-  		var i=$('.message').offset().top;
-  		$('body').animate({scrollTop:(i)},500);
+	$("#l3").click(function(){
+  		var i=$(".message").offset().top;
+  		$("body").animate({scrollTop:(i)},500);
 	});
 
-	$('#l4').click(function(){
-  		var i=$('.updates').offset().top;
-  		$('body').animate({scrollTop:(i)},500);
+	$("#l4").click(function(){
+  		var i=$(".updates").offset().top;
+  		$("body").animate({scrollTop:(i)},500);
 	});
 
-	$('#l5').click(function(){
-  		var i=$('#secretariat').offset().top;
-  		$('body').animate({scrollTop:(i)},500);
+	$("#l5").click(function(){
+  		var i=$("#secretariat").offset().top;
+  		$("body").animate({scrollTop:(i)},500);
 	});
 
-	$('#l6').click(function(){
-  		var i=$('.fourth').offset().top;
-  		$('body').animate({scrollTop:(i)},500);
+	$("#l6").click(function(){
+  		var i=$(".fourth").offset().top;
+  		$("body").animate({scrollTop:(i)},500);
 	});
 
-	$('#l7').click(function(){
-  		var i=$('.resources').offset().top;
-  		$('body').animate({scrollTop:(i)},500);
+	$("#l7").click(function(){
+  		var i=$(".resources").offset().top;
+  		$("body").animate({scrollTop:(i)},500);
 	});
 
-	$('#l8').click(function(){
-			var i=$('.fifth').offset().top;
-			$('body').animate({scrollTop:(i)},500);
+	$("#l8").click(function(){
+			var i=$(".fifth").offset().top;
+			$("body").animate({scrollTop:(i)},500);
 	});
 
 
-	$('#l9').click(function(){
- 		window.open('register.html','_self');
+	$("#l9").click(function(){
+ 		window.open("register.html","_self");
 	});
 
-	$('.pro').click(function() {
-		 window.open('http://sayamkanwar.com/','_self');
+	$(".pro").click(function() {
+		 window.open("http://sayamkanwar.com/","_self");
 	});
 
 

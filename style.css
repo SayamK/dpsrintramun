@@ -368,7 +368,7 @@ header a:hover #contact-line {
 	}
 
 	#comm-2 {
-		background: url('loksabha.jpg') no-repeat;
+		background: url('ga.jpg') no-repeat;
     background-size: cover;
 	}
 
@@ -532,4 +532,23 @@ header a:hover #contact-line {
 
 		.resource:hover {
 			background: #10735F;
+		}
+
+		table {
+			border-collapse: collapse;
+			font-family: 'Roboto',sans-serif;
+			text-align: center;
+		}
+
+		th {
+			font-weight: 400;
+			background: #16a085;
+			color: #fff;
+			padding: 1em;
+		}	
+
+		td {
+			font-weight: 300;
+			background: #fff;
+			padding: 1em;
 		}
