@@ -121,6 +121,12 @@ header a:hover #contact-line {
 	font-weight: 200;
 }
 
+.date-new {
+	color:#eee;
+	font-family:'Montserrat',sans-serif;
+	font-size:30px;
+}
+
 
 	.timer {
 		width: 80%;
