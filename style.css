@@ -113,6 +113,16 @@ header a:hover #contact-line {
 	margin-right: 100px;
 }
 
+.resBtn {
+	background: #16a085;
+	padding: 30px;
+	font-size:18px;
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:300;
+	font-family: 'Montserrat',sans-serif;
+}
+
 .first h1 {
 	color: #eee;
 	margin-top: 180px;
