@@ -1,5 +1,5 @@
 function timer(){
-		var t = new Date("15 July, 2018");
+		var t = new Date("19 July, 2018");
 		var d = new Date();
 
 		var current_year = d.getYear();
@@ -109,7 +109,6 @@ function timer(){
 		//Month days
 		if(d.getMonth()==t.getMonth())
 		{
-			console.log("muah");
 			for(i=(d.getDate()+1);i<=t.getDate();i++)
 				days++;
 		}
@@ -214,19 +213,20 @@ function timer(){
 		$("#seconds span").html(seconds);
 }
 
-
-$(document).ready(function(){
 	var x = setInterval(function(){
 		timer();
-	},1000)
+	},1000);
+
+
+$(document).ready(function(){
 
 	$("#l1").click(function(){
-		// console.log("chal");
   		var i=$(".first").offset().top;
   		$("body").animate({scrollTop:(i)},1000);
 	});
 
 	$("#l2").click(function(){
+		// console.log("chal");
   		var i=$(".second").offset().top;
   		$("body").animate({scrollTop:(i)},500);
 	});
