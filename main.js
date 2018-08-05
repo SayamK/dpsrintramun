@@ -1,5 +1,5 @@
 function timer(){
-		var t = new Date("19 July, 2018");
+		var t = new Date("9 August, 2018");
 		var d = new Date();
 
 		var current_year = d.getYear();
