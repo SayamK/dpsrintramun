@@ -369,7 +369,7 @@ header a:hover #contact-line {
 
   .com {
 		height: 350px;
-    width: 300px;
+    	width: 300px;
 		display: inline-block;
 		margin-right: 20px;
 		margin-top: 20px;
@@ -378,7 +378,7 @@ header a:hover #contact-line {
 	.com p {
 		color: #eee;
 		font-size: 25px;
-		font-weight: 300;
+		font-weight: 400;
 		margin-top: 100px;
 	}
 
@@ -393,8 +393,24 @@ header a:hover #contact-line {
     background-size: cover;
 	}
 	#comm-3 {
-		background: url('ga.jpg') no-repeat;
+		background: url('ip.jpg') no-repeat;
     background-size: cover;
+
+	}
+
+	#ungabg {
+		background: url("resources.jpg") no-repeat;
+		opacity: 0.6;
+    background-size: cover;
+    background-position: -20px;
+    height: 200px;
+
+	}
+	#unscbg {
+		background: rgba(0,0,0,0.7);
+    background-size: cover;
+    background-position: -20px;
+    height: 200px;
 
 	}
 
@@ -459,11 +475,12 @@ header a:hover #contact-line {
 	}
 
 	.resources p {
-		font-size: 18px;
-		text-align: justify;
-		width: 70%;
-		margin-top: 15px;
-		font-weight: 300;
+		color: black;
+		font-size: 30px;
+		text-align: center;
+		width: 100%;
+		margin-top: 25px;
+		font-weight: 400;
 	}
 
 	.updates {
