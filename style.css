@@ -276,24 +276,24 @@ header a:hover #contact-line {
 				}
 
 				#member1 {
-				background: url("parth.jpg") no-repeat;
+				background: url("default.png") no-repeat;
 				background-size: cover;
-				background-position: -50px;
+				/*background-position: -50px;*/
 				}
 
 				#member2 {
-				background: url("adit.jpg") no-repeat;
+				background: url("default.png") no-repeat;
 				background-size: cover;
-				background-position: -30px;
+				/*background-position: -30px;*/
 				}
 
 				#member3 {
-				background: url("manik.jpg") no-repeat;
+				background: url("default.png") no-repeat;
 				background-size: cover;
 				}
 
 				#member4 {
-				background: url("ankita.jpg") no-repeat;
+				background: url("default.png") no-repeat;
 				background-size: cover;
 				}
 
@@ -303,7 +303,7 @@ header a:hover #contact-line {
 				}
 
 				#member11 {
-				background: url("Aastha.JPG") no-repeat;
+				background: url("default.png") no-repeat;
 				background-size: cover;
 				}
 
@@ -313,13 +313,13 @@ header a:hover #contact-line {
 				}
 
 				#member7 {
-				background: url("shloak.jpg") no-repeat;
+				background: url("default.png") no-repeat;
 				background-size: cover;
 				/*background-position: -100px;*/
 				}
 
 				#member10 {
-				background: url("sk.jpg") no-repeat;
+				background: url("default.png") no-repeat;
 				background-size: cover;
 				}
 
